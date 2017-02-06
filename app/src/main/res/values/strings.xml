@@ -1,9 +1,13 @@
 <!DOCTYPE resources []>
 <resources>
-    <string name="app_name">GDG Minna</string>
-    <string name="activity_name">Organizers</string>
+    <string name="app_name">GDG Minna Lite</string>
+    <string name="activity_name_organizer">Organizers</string>
     <string name="activity_name_wtm">Women Techmakers</string>
     <string name="activity_name_events">Major Events</string>
+    <string name="activity_name_register">Register</string>
+    <string name="activity_name_disclaimer">Disclaimer</string>
+    <string name="activity_name_faq">Help/FAQ</string>
+    <string name="activity_name_socialmedia">Social Media pages</string>
 
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
@@ -62,6 +66,27 @@
     <string name="mission_heading">Heading</string>
     <string name="studyjam2">"Study Jams are an opportunity for students to receive free, in-person guidance and tutoring on the Udacity course in a fun classroom environment."</string>
 
+    <!--Register-->
+    <string name="register">"To Join GDG Minna below is a link to our online form, fill it, ensure you submit and receive a success massage"</string>
+    <string name="register2">"Dont forget to visit our social media pages for updates on upcoming events and meetings/meetups "</string>
+
+    <!--Disclaimer & FAQ-->
+    <string name="disclaimer">GDG Minna is an Independent Group; Our Activities and the Opinions Expressed on this App Should in no way be Linked to Google, The Corporation.</string>
+    <string name="disclaimer1">Visit the GDG page on Google Developers website. If you have any questions, visit the support page. You can also follow our Youtube channel.</string>
+    <string name="disclaimer2">"Visit the directory to see if there's a local meetup in your area. Feel free to contact the organizers to find out more about the particular GDG you want to join .\nClick on the link below to join GDG Minna:"</string>
+    <string name="disclaimer3">The GDG is an initiative formed out of passion and good will. However, the long-term benefits are many.\n</string>
+    <string name="disclaimer4">If you love internet technologies and enjoy exploring them with others, you’ll love being involved in a chapter or even being its founder. You’ll be able to bring together great speakers and like-minded audience and do things together that YOU personally like to do, but on a larger scale and with your direct influence on what that will be. While you could of course do this yourself anytime, the association with GDG brings you personally closer to the Google world, helps you in promoting and running your events and will let you get inspiration from more than 500 other GDG organizers around the world. You will also learn a lot yourself - from organizing and leading people, through running events to growing your technical knowledge. The GDG leadership position isn’t paid, but it lets you get a lot of other benefits.</string>
+    <string name="disclaimer5">GDG Organizers <b>are not</b> Googlers(Working with Google). Google Sponsor GDGs Events.</string>
+    <string name="disclaimer6">Leaders (chapter leaders, project organizers, country coordinators, etc.) are by far the key people in communities, who influence everything - other organizers, culture, activities. Leaders and organizers are capable technical, people-wise and organization wise. An organizer is responsible for:\n\n
+        1. Networking with people.\n\n
+        2. Event production.\n\n
+        3. Inspiring people to do stuff.\n\n
+        4. Leading people to make a decision.\n\n
+        5. Offering things to do.
+    </string>
+    <string name="disclaimer7">"If you want to know more about Women Techmakers or you are interested in joining the Women Techmakers movement visit the link below:"</string>
+
+
     <!-- Names -->
     <string-array name="names">
         <item>Umar Awuna</item>
@@ -108,7 +133,6 @@
         <item>ernestsiyanda@gmail.com</item>
         <item>jaykon4me@gmail.com</item>
         <item>rhizoo39@gmail.com</item>
-
     </string-array>
 
     <!-- TODO: Remove or change this placeholder text -->

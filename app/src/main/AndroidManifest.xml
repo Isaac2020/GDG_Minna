@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.gdgminna.android.gdgminna">
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_gdgminna"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
@@ -20,12 +21,26 @@
         </activity>
         <activity
             android:name=".OrganizersActivity"
-            android:label="@string/activity_name" />
+            android:label="@string/activity_name_organizer" />
         <activity
             android:name=".WTMActivity"
-            android:label="@string/activity_name_wtm"></activity>
-        <activity android:name=".EventsActivity"
-            android:label="@string/activity_name_events"></activity>
+            android:label="@string/activity_name_wtm" />
+        <activity
+            android:name=".EventsActivity"
+            android:label="@string/activity_name_events" />
+        <activity
+            android:name=".DisclaimerActivity"
+            android:label="@string/activity_name_disclaimer"/>
+        <activity
+            android:name=".FAQActivity"
+            android:label="@string/activity_name_faq"/>
+        <activity
+            android:name=".RegisterActivity"
+            android:label="@string/activity_name_register"/>
+        <activity
+            android:name=".SocialmediaActivity"
+            android:label="@string/activity_name_socialmedia">
+        </activity>
     </application>
 
 </manifest>

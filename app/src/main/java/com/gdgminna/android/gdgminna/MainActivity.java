@@ -1,9 +1,7 @@
 package com.gdgminna.android.gdgminna;
 
-import android.app.Activity;
-
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentTransaction;
+import android.app.Fragment;
+import android.app.FragmentTransaction;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -18,8 +16,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import static android.R.attr.action;
-import static android.R.attr.fragment;
+
+import static android.R.attr.id;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -77,25 +75,31 @@ public class MainActivity extends AppCompatActivity
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_share) {
+            Intent share = new Intent (Intent.ACTION_SEND);
+            share.setType("text/plain");
+            share.putExtra(Intent.EXTRA_SUBJECT,"GDG Minna");
+            share.putExtra(Intent.EXTRA_TEXT,"Download GDG Minna App to know more about Google Developers Group Minna Community");
+            startActivity(share);
             return true;
         } else if (id == R.id.action_about){
             return true;
         }if (id == R.id.action_feedback) {
             return true;
         } else if (id == R.id.action_help_faq){
+            Intent intent = new Intent(this,FAQActivity.class);
+            startActivity(intent);
             return true;
         }else if (id == R.id.action_disclaimer){
+            Intent intent = new Intent(this,DisclaimerActivity.class);
+            startActivity(intent);
             return true;
         } else
         return super.onOptionsItemSelected(item);
     }
-
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
-        Fragment fragment;
-        FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
         int id = item.getItemId();
 
         if (id == R.id.nav_home) {
@@ -107,30 +111,37 @@ public class MainActivity extends AppCompatActivity
             startActivity(intent);
 
         } else if (id == R.id.nav_events) {
-            fragment = new MajorEventFragment ();
-            ft.replace(R.id.container, fragment).commit();
-
+            Intent intent = new Intent(this,EventsActivity.class);
+            startActivity(intent);
 
         } else if (id == R.id.nav_organizers) {
             Intent intent = new Intent(this,OrganizersActivity.class);
             startActivity(intent);
 
         } else if (id == R.id.nav_share) {
-
-        } else if (id == R.id.nav_Mailinglist) {
+            Intent share = new Intent (Intent.ACTION_SEND);
+            share.setType("text/plain");
+            share.putExtra(Intent.EXTRA_SUBJECT,"GDG Minna");
+            share.putExtra(Intent.EXTRA_TEXT,"Download GDG Minna Lite App designed to consume minimum or no data at all\nhttps://play.google.com/store/search?q=gdg%20minna");
+            startActivity(share);
+            return true;
 
         } else if (id == R.id.nav_register) {
+            Intent intent = new Intent(this,RegisterActivity.class);
+            startActivity(intent);
 
         } else if (id == R.id.nav_socialmedia) {
+            Intent intent = new Intent(this,SocialmediaActivity.class);
+            startActivity(intent);
 
         } else if (id == R.id.nav_contactus) {
 
         } else if (id == R.id.nav_disclaimer) {
+            Intent intent = new Intent(this,DisclaimerActivity.class);
+            startActivity(intent);
 
-        }
-
+        } else {
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
-        return true;
-    }
-}
+    } return true;
+}}
