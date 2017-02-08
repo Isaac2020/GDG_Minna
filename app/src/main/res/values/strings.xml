@@ -1,14 +1,19 @@
 <!DOCTYPE resources []>
 <resources>
     <string name="app_name">GDG Minna Lite</string>
-    <string name="activity_name_organizer">Organizers</string>
+    <string name="app_version">Version 1.0 beta</string>
+
+    <!--activities heading-->
+    <string name="activity_name_organizer">Organizers and Team Leads</string>
     <string name="activity_name_wtm">Women Techmakers</string>
     <string name="activity_name_events">Major Events</string>
     <string name="activity_name_register">Register</string>
     <string name="activity_name_disclaimer">Disclaimer</string>
     <string name="activity_name_faq">Help/FAQ</string>
     <string name="activity_name_socialmedia">Social Media pages</string>
-
+    <string name="activity_name_contactus">Contact Us</string>
+    <string name="activity_name_feedback">FeedBack</string>
+    <string name="activity_name_about">About</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -70,7 +75,7 @@
     <string name="register">"To Join GDG Minna below is a link to our online form, fill it, ensure you submit and receive a success massage"</string>
     <string name="register2">"Dont forget to visit our social media pages for updates on upcoming events and meetings/meetups "</string>
 
-    <!--Disclaimer & FAQ-->
+    <!--Disclaimer-->
     <string name="disclaimer">GDG Minna is an Independent Group; Our Activities and the Opinions Expressed on this App Should in no way be Linked to Google, The Corporation.</string>
     <string name="disclaimer1">Visit the GDG page on Google Developers website. If you have any questions, visit the support page. You can also follow our Youtube channel.</string>
     <string name="disclaimer2">"Visit the directory to see if there's a local meetup in your area. Feel free to contact the organizers to find out more about the particular GDG you want to join .\nClick on the link below to join GDG Minna:"</string>
@@ -82,9 +87,18 @@
         2. Event production.\n\n
         3. Inspiring people to do stuff.\n\n
         4. Leading people to make a decision.\n\n
-        5. Offering things to do.
-    </string>
+        5. Offering things to do.</string>
     <string name="disclaimer7">"If you want to know more about Women Techmakers or you are interested in joining the Women Techmakers movement visit the link below:"</string>
+
+    <!--FAQ-->
+    <string name="text_faq">"Lets us know your experiences with the app, what you think is missing or should be added/included and don't forget to report bugs as soon as you find one."</string>
+
+    <!--About-->
+    <string name="message">GDG Minna lite app is designed specifically for less/no data usage, that is to say it is designed to work offline, prevent round tripe to any serve and consumes less device memory space.</string>
+
+    <!--Contactus-->
+    <string name="contactus">You can contact us through any medium of your choice. Links to our social media pages are made available in the Social Media pages section of this app.\n\nThe email address of our organizers and team leads are also made available in the Organizers section of this app.\n\nWe would love to hear from you.</string>
+    <string name="contactdev">You can contact the developer of this app by using the feedback form in the feedback section of this app.\n\nIncase of any bug please feel free to contact the developer of this app through the feedback form</string>
 
 
     <!-- Names -->

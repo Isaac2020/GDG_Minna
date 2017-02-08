@@ -1,5 +1,6 @@
 package com.gdgminna.android.gdgminna;
 
+import android.app.Activity;
 import android.app.Fragment;
 import android.app.FragmentTransaction;
 import android.content.Intent;
@@ -16,8 +17,6 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
-
-import static android.R.attr.id;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -82,8 +81,12 @@ public class MainActivity extends AppCompatActivity
             startActivity(share);
             return true;
         } else if (id == R.id.action_about){
+            Intent intent = new Intent(this,AboutActivity.class);
+            startActivity(intent);
             return true;
         }if (id == R.id.action_feedback) {
+            Intent intent = new Intent(this,FeedbackActivity.class);
+            startActivity(intent);
             return true;
         } else if (id == R.id.action_help_faq){
             Intent intent = new Intent(this,FAQActivity.class);
@@ -135,6 +138,8 @@ public class MainActivity extends AppCompatActivity
             startActivity(intent);
 
         } else if (id == R.id.nav_contactus) {
+            Intent intent = new Intent(this,ContactusActivity.class);
+            startActivity(intent);
 
         } else if (id == R.id.nav_disclaimer) {
             Intent intent = new Intent(this,DisclaimerActivity.class);
