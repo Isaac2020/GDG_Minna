@@ -77,7 +77,8 @@ public class MainActivity extends AppCompatActivity
             Intent share = new Intent (Intent.ACTION_SEND);
             share.setType("text/plain");
             share.putExtra(Intent.EXTRA_SUBJECT,"GDG Minna");
-            share.putExtra(Intent.EXTRA_TEXT,"Download GDG Minna App to know more about Google Developers Group Minna Community");
+            share.putExtra(Intent.EXTRA_TEXT,"Download GDG Minna Lite App designed to consume minimum or no data at all\n" +
+                    "https://play.google.com/store/search?q=gdg%20minna");
             startActivity(share);
             return true;
         } else if (id == R.id.action_about){
@@ -121,25 +122,26 @@ public class MainActivity extends AppCompatActivity
             Intent intent = new Intent(this,OrganizersActivity.class);
             startActivity(intent);
 
-        } else if (id == R.id.nav_share) {
-            Intent share = new Intent (Intent.ACTION_SEND);
-            share.setType("text/plain");
-            share.putExtra(Intent.EXTRA_SUBJECT,"GDG Minna");
-            share.putExtra(Intent.EXTRA_TEXT,"Download GDG Minna Lite App designed to consume minimum or no data at all\nhttps://play.google.com/store/search?q=gdg%20minna");
-            startActivity(share);
-            return true;
-
         } else if (id == R.id.nav_register) {
             Intent intent = new Intent(this,RegisterActivity.class);
+            startActivity(intent);
+
+        } else if (id == R.id.nav_contactus) {
+            Intent intent = new Intent(this,ContactusActivity.class);
             startActivity(intent);
 
         } else if (id == R.id.nav_socialmedia) {
             Intent intent = new Intent(this,SocialmediaActivity.class);
             startActivity(intent);
 
-        } else if (id == R.id.nav_contactus) {
-            Intent intent = new Intent(this,ContactusActivity.class);
-            startActivity(intent);
+        } else if (id == R.id.nav_share) {
+            Intent share = new Intent (Intent.ACTION_SEND);
+            share.setType("text/plain");
+            share.putExtra(Intent.EXTRA_SUBJECT,"GDG Minna");
+            share.putExtra(Intent.EXTRA_TEXT,"Download GDG Minna Lite App designed to consume minimum or no data at all\n" +
+                    "https://play.google.com/store/search?q=gdg%20minna");
+            startActivity(share);
+            return true;
 
         } else if (id == R.id.nav_disclaimer) {
             Intent intent = new Intent(this,DisclaimerActivity.class);

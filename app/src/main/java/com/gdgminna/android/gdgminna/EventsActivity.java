@@ -18,7 +18,7 @@ public class EventsActivity extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.inner_menu, menu);
+        getMenuInflater().inflate(R.menu.main, menu);
         return true;
     }
 
@@ -34,7 +34,8 @@ public class EventsActivity extends AppCompatActivity {
             Intent share = new Intent (Intent.ACTION_SEND);
             share.setType("text/plain");
             share.putExtra(Intent.EXTRA_SUBJECT,"GDG Minna");
-            share.putExtra(Intent.EXTRA_TEXT,"Download GDG Minna App to know more about Google Developers Group Minna Community");
+            share.putExtra(Intent.EXTRA_TEXT,"Download GDG Minna Lite App designed to consume minimum or no data at all\n" +
+                    "https://play.google.com/store/search?q=gdg%20minna");
             startActivity(share);
             return true;
         } else if (id == R.id.action_about){

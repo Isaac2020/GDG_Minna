@@ -72,8 +72,8 @@
     <string name="studyjam2">"Study Jams are an opportunity for students to receive free, in-person guidance and tutoring on the Udacity course in a fun classroom environment."</string>
 
     <!--Register-->
-    <string name="register">"To Join GDG Minna below is a link to our online form, fill it, ensure you submit and receive a success massage"</string>
-    <string name="register2">"Dont forget to visit our social media pages for updates on upcoming events and meetings/meetups "</string>
+    <string name="register">"To Join GDG Minna below is a link to our online form, fill it, ensure you submit and receive a success message."</string>
+    <string name="register2">"Dont forget to visit our social media pages for updates on upcoming events and meetings/meetups."</string>
 
     <!--Disclaimer-->
     <string name="disclaimer">GDG Minna is an Independent Group; Our Activities and the Opinions Expressed on this App Should in no way be Linked to Google, The Corporation.</string>
@@ -98,7 +98,7 @@
 
     <!--Contactus-->
     <string name="contactus">You can contact us through any medium of your choice. Links to our social media pages are made available in the Social Media pages section of this app.\n\nThe email address of our organizers and team leads are also made available in the Organizers section of this app.\n\nWe would love to hear from you.</string>
-    <string name="contactdev">You can contact the developer of this app by using the feedback form in the feedback section of this app.\n\nIncase of any bug please feel free to contact the developer of this app through the feedback form</string>
+    <string name="contactdev">You can contact the developer of this app by using the feedback form in the feedback section of this app.\n\nIncase of any bug please feel free to contact the developer of this app through the feedback form.</string>
 
 
     <!-- Names -->

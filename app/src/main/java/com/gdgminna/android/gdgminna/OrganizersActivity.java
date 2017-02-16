@@ -67,7 +67,8 @@ public class OrganizersActivity extends AppCompatActivity {
             Intent share = new Intent (Intent.ACTION_SEND);
             share.setType("text/plain");
             share.putExtra(Intent.EXTRA_SUBJECT,"GDG Minna");
-            share.putExtra(Intent.EXTRA_TEXT,"Download GDG Minna App to know more about Google Developers Group Minna Community");
+            share.putExtra(Intent.EXTRA_TEXT,"Download GDG Minna Lite App designed to consume minimum or no data at all\n" +
+                    "https://play.google.com/store/search?q=gdg%20minna");
             startActivity(share);
             return true;
         } else if (id == R.id.action_about){
