@@ -17,8 +17,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
-        android:src="@drawable/gdgminna_logo"
-         />
+        android:src="@drawable/gdgminna_logo" />
 
     <TextView
         android:layout_width="match_parent"
@@ -33,8 +32,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="www.minna.gdg.ng"
-        android:autoLink="web"
-        android:textColor="@android:color/holo_blue_light"
+        android:textColor="@android:color/white"
         android:textStyle="bold"/>
 
 </LinearLayout>

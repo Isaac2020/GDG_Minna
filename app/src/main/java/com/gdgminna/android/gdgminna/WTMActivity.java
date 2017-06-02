@@ -35,7 +35,7 @@ public class WTMActivity extends AppCompatActivity {
             share.setType("text/plain");
             share.putExtra(Intent.EXTRA_SUBJECT,"GDG Minna");
             share.putExtra(Intent.EXTRA_TEXT,"Download GDG Minna Lite App designed to consume minimum or no data at all\n" +
-                    "https://play.google.com/store/search?q=gdg%20minna");
+                    "https://play.google.com/store/apps/developer?id=GDG+Minna");
             startActivity(share);
             return true;
         } else if (id == R.id.action_about){
